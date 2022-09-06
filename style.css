@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main__div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.926);
+}
+
+.center__div {
+  text-align: center;
+}
+
+h1 {
+  /* font-family: "Aboreto", cursive; */
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0.3rem 0.2rem 1rem rgb(4, 213, 255);
+  font-size: 2.1rem;
+  font-weight: 400;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 200;
+  /* font-family: "Aboreto", cursive; */
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+
+  box-shadow: 5px 5px 20px rgba(12, 255, 158, 0.521);
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.2rem;
+  border: none;
+}
+
+#btn {
+  font-size: 1.3rem;
+  /* background: none; */
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background: none;
+  background-color: rgb(0, 100, 10);
+  border-radius: 50px;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(36, 255, 58, 0.648),
+    -2px -2px 10px rgba(36, 255, 58, 0.648);
+  transition: all 0.3s;
+  color: whitesmoke;
+}
+#btn:hover {
+  background-color: rgba(0, 252, 25, 0.633);
+  /* color: rgba(0, 252, 25, 0.633); */
+  border: 2px solid greenyellow;
+}
+
+#btn:active {
+  box-shadow: 0.5px 0.5px 5px rgba(36, 255, 58, 0.648),
+    -1px -1px 5px rgba(36, 255, 58, 0.648);
+  border: none;
+}
