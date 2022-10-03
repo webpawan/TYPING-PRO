@@ -28,12 +28,9 @@ h2 {
   font-weight: 500;
   font-size: 1.5rem;
   font-weight: 400;
-  border-radius: 26px;
-  border-radius: 10px;
   background: #7c83fd;
   box-shadow: inset 8px 8px 12px #4d519d, inset -8px -8px 12px #abb5ff;
   padding: 5rem;
-  /* font-family: "Aboreto", cursive; */
 }
 
 textarea {
